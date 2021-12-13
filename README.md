@@ -15,7 +15,7 @@ USED NODES:
               used to run the 2D simulator
 CUSTOMITED SERVICE:
    created in my_srv/srv/Velocity.srv
-   has tow float32 requests and one float32 response 
+   has two float32 requests and one float32 response 
 CUSTOMITED MESSAGE:
    created in ass2/msg/User.msg
    has one argument  int32 
@@ -34,7 +34,7 @@ enter 3 to speedup
 headers
 declare the publisher and services 
 declare user_input() 
-    return the integer entred by the user
+    // it is a function used to return the value of the integer entred by the user
 declare robotCalback()
     initialize integer variables to starting index for each range (i used 6 ranges ) i1...i6
     initialize a float to stor the minnimum value returned by eache range (min1 .. min6)
