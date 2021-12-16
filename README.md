@@ -16,10 +16,12 @@ USED NODES:
 CUSTOMITED SERVICE:
    created in my_srv/srv/Velocity.srv
    has two float32 requests and one float32 response 
+   the two requestes are : the user input  and the current velocity of the robot
+   the response : the new velocity multiplier assigned to the robot
 CUSTOMITED MESSAGE:
    created in ass2/msg/User.msg
    has one argument  int32 
-   used to transfer the data entred by the user to be used in the controller program
+   used to transfer the data entred by the user to be used by the controller program
 # How to run it 
 1- run the 2D simulator by   "rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world"
 2- run the server by  "rosrun my_srv server "
