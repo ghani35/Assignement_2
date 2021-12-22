@@ -1,11 +1,11 @@
 # Decription of the program
 * USED PACKAGES: 
-   1-second_assignement
-   2-my_srv
-   3-ass2
+   * 1-second_assignement
+   * 2-my_srv
+   * 3-ass2
 * USED NODES:
-   server : it is located in my_srv/src/server.cpp
-            used to implement the function used by the customited server. 
+   * server : it is located in my_srv/src/server.cpp
+            * used to implement the function used by the customited server. 
             the function is to return the speed multiplier either incremented or decremented, dependig on the user request 
    controller_node : it is located in ass2/src/controller.cpp 
                      used to control the robot
