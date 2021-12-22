@@ -1,9 +1,9 @@
 # Decription of the program
-*USED PACKAGES: 
+* USED PACKAGES: 
    1-second_assignement
    2-my_srv
    3-ass2
-*USED NODES:
+* USED NODES:
    server : it is located in my_srv/src/server.cpp
             used to implement the function used by the customited server. 
             the function is to return the speed multiplier either incremented or decremented, dependig on the user request 
@@ -13,12 +13,12 @@
              used as user interface to allow the user to enter the commands
    stage_ros : provided by second assignement package 
               used to run the 2D simulator
-*CUSTOMITED SERVICE:
+* CUSTOMITED SERVICE:
    created in my_srv/srv/Velocity.srv
    has two float32 requests and one float32 response 
    the two requestes are : the user input  and the current velocity of the robot
    the response : the new velocity multiplier assigned to the robot
-*CUSTOMITED MESSAGE:
+* CUSTOMITED MESSAGE:
    created in ass2/msg/User.msg
    has one argument  int32 
    used to transfer the data entred by the user to be used by the controller program
